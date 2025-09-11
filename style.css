@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box !important;
+}
+
+
+.grid-color{
+    background-color: #BFDBAE;
+}
+
+.horizontal-item{
+    border: 3px solid darkslategray;
+    /* padding: 3.846153846153846vh 0 !important; */
+    width: 7.692307692307692vh;
+    height: 15.38461538461538vh;
+    text-align: center;
+    box-sizing: border-box !important;
+    margin: -1.5px;
+}
+
+.monopoly-row{
+    width: 100vh;
+    margin: -1.5px auto !important;
+}
+
+.vertical-item{
+    height: 7.692307692307692vh;
+    border: 3px solid darkslategray;
+    padding: 0 3.846153846153846vh !important;
+    box-sizing: border-box !important;
+    margin: -1.5px;
+}
+
+.corner-label{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.red-slot{
+    background-image: linear-gradient(#BFDBAE, #BFDBAE, red);
+    margin: -1.5px;
+}
+
+.yellow-slot{
+    background-image: linear-gradient(#BFDBAE, #BFDBAE, yellow);
+    margin: -1.5px;
+}
+
+.orange-slot{
+    background-image: linear-gradient(to right, #BFDBAE, #BFDBAE, orange);
+}
+
+.green-slot{
+    background-image: linear-gradient(to right, green, #BFDBAE, #BFDBAE);
+}
+
+.dark-red-slot{
+    background-image: linear-gradient(to right, #BFDBAE, #BFDBAE, #bf0563);
+}
+
+.blue-slot{
+    background-image: linear-gradient(to right, blue, #BFDBAE, #BFDBAE);
+}
+
+.light-blue-slot{
+    background-image: linear-gradient(#c1c7e7, #BFDBAE, #BFDBAE);
+}
+
+.brown-slot{
+    background-image: linear-gradient(brown, #BFDBAE, #BFDBAE);
+}
+
+.red-slot:hover{
+    background-image: linear-gradient(#BFDBAE, red, red);
+}
+
+.yellow-slot:hover{
+    background-image: linear-gradient(#BFDBAE, yellow, yellow);
+}
+
+.orange-slot:hover{
+    background-image: linear-gradient(to right, #BFDBAE, orange, orange);
+}
+
+.green-slot:hover{
+    background-image: linear-gradient(to right, green, green, #BFDBAE);
+}
+
+.dark-red-slot:hover{
+    background-image: linear-gradient(to right, #BFDBAE, #bf0563, #bf0563);
+}
+
+.blue-slot:hover{
+    background-image: linear-gradient(to right, blue, blue, #BFDBAE);
+}
+
+.light-blue-slot:hover{
+    background-image: linear-gradient(#c1c7e7, #c1c7e7, #BFDBAE);
+}
+
+.brown-slot:hover{
+    background-image: linear-gradient(brown, brown, #BFDBAE);
+}
+
+.top-special-slot{
+    margin: -1.5px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right-special-slot{
+    margin: -1.5px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-0.25turn);
+}
